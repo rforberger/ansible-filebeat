@@ -1,0 +1,9 @@
+---
+
+- name: filebeat
+  ansible.builtin.service:
+    name: filebeat
+    state: restarted
+
+
+
